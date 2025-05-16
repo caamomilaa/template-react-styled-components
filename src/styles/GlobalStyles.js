@@ -1,6 +1,6 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
-export const GlobalStyles = create createGlobalStyle`
+export const GlobalStyles = createGlobalStyle`
     *,
     *::after,
     *::before {
@@ -31,4 +31,4 @@ export const GlobalStyles = create createGlobalStyle`
         margin: 0;
         font-family: sans-serif;
     }
-`
+`;
